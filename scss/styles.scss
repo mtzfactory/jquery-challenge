@@ -1,0 +1,50 @@
+/*
+ --
+ */
+.header {
+  margin: 60px 0;
+
+  h1 {
+    text-align: center;
+    .plum { color: skyblue; }
+    .gold { color: gold; }
+  }
+}
+
+/*
+ --
+ */
+.todoSection {
+
+  #todoForm {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .help-block {
+    display: inline-block;
+  }
+
+  .todoList, .doneList {
+    & span.glyphicon.glyphicon-ok {
+      margin-left: 10px;
+    }
+  }
+
+  .doneList span.glyphicon.glyphicon-ok {
+    color: green !important;
+  }
+}
+
+/*
+ --
+ */
+.footer {
+	position: fixed;
+	top: 3px;
+  left: 3px;
+  width: calc(100% - 3px);
+	_text-align: center;
+  font-size: 10px;
+  i.red { color: #BC0213; }
+}

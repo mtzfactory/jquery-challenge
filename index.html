@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>TO-DO list</title>
+  <!-- fonts -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<!-- https://github.com/juanmaguitar/bootstrap-exercises/tree/master/01-photoapp-website -->
+<!-- http://getbootstrap.com/docs/3.3/getting-started/ -->
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>TO-DO with <span class="plum">JQuery</span> and <span class="gold">Bootstrap</span></h1>
+    </header>
+
+    <section class="todoSection">
+      <form action="#" id="todoForm" class="form-inline form-group">
+        <label for="todoInput">Input a to-do and hit enter!&nbsp;</label>
+        <div class="input-group">
+          <input type="text" id="todoInput" class="form-control" placeholder="new to-do" aria-describedby="plus-sign">
+          <span class="input-group-addon" id="plus-sign"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>
+        </div>
+        <p id="helpBlock" class="help-block">La tarea ya existe!</p>
+      </form>
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="pull-right">
+          <h2>pending</h2>
+          <ul class="todoList"></ul>
+          </div>
+        </div>
+        <div class=" col-sm-offset-2 col-sm-5">
+          <div class="pull-left">
+          <h2>already done</h2>
+          <ul class="doneList"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+        <p>hecho con&nbsp;&nbsp;<i class="fa fa-heart red" aria-hidden="true"></i>&nbsp;&nbsp;por <a href="mailto:ricardo.martinez.monje@gmail.com">Ricardo Martínez</a></p>
+    </footer>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- application -->
+  <script src="./js/app.js"></script>
+</body>
+</html>
