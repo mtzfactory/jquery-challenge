@@ -3,7 +3,7 @@
 
 ## Full Stack Web Development Bootcamp @Otoño2017
 
-### otro TO-DO con JQuery, Bootstrap y Sass.
+### Otro TO-DO más... con JQuery, Bootstrap y Sass.
 
 Pequeño ejemplo de integración entre JQuery y Bootstrap.
 
