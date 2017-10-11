@@ -3,11 +3,11 @@
 
 ## Full Stack Web Development Bootcamp @Otoño2017
 
-### Otro TO-DO más... con JQuery, Bootstrap y Sass.
+### TO-DO app ~ Otro más... con JQuery, Bootstrap y Sass.
 
 Pequeño ejemplo de integración entre JQuery y Bootstrap.
 
- + [to-do website](https://mtzfactory.github.io/jquery-challenge/)
+ + [to-do website](https://mtzfactory.github.io/todo-jquery-sass/)
 
 
 ![imagen](img/todo-website.png)
